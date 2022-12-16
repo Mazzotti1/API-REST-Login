@@ -18,7 +18,7 @@ node.js e banco de dados
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
     <img src="https://img.shields.io/badge/nodejs-339933?style=for-the-badge&logo=nodejs&logoColor=black" /> 
-    <img src="https://img.shields.io/badge/mongodb-8F0000?style=for-the-badge&logo=mongodb&logoColor=black" /> 
+    <img src="https://img.shields.io/badge/mongodb-FFF?style=for-the-badge&logo=mongodb&logoColor=black" /> 
   
           
           
