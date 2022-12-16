@@ -3,6 +3,15 @@
 Este projeto foi feito para aplicar meus conhecimentos sobre desenvolvimento back-end<br>
 node.js e banco de dados
 
+Para rodar um teste da API no insomnia utilizar a Porta: 3000
+{get}
+localhost:3000/user/login
+localhost:3000/user/register
+
+{post}
+
+localhost:3000/user/admin
+
 ## O projeto é composto por:
 
 - **Controladores:** Encriptações de senha para banco de dados, validações de credenciais e criação de token para login;
