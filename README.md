@@ -4,11 +4,11 @@ Este projeto foi feito para aplicar meus conhecimentos sobre desenvolvimento bac
 node.js e banco de dados
 
 ## Utilização
-Para rodar um teste da API no insomnia utilizar a Porta: 3000
-E utilizar um cluster do mongodb e linkar na no arquivo .ENV
-{get}
-localhost:3000/user/login
-localhost:3000/user/register
+Para rodar um teste da API no insomnia utilizar a Porta: 3000<br>
+E utilizar um cluster do mongodb e linkar na no arquivo .ENV<br>
+{get}<br>
+localhost:3000/user/login<br>
+localhost:3000/user/register<br>
 
 {post}
 
