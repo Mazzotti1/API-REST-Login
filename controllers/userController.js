@@ -20,7 +20,7 @@ const userController = {
   })
   try {
     const savedUser = await user.save()
-    res.send(savedUser)
+    res.send("Conta criada")
   } catch (error) {
     res.status(400).send(error)
   }
