@@ -4,24 +4,27 @@ Este projeto foi feito para aplicar meus conhecimentos sobre desenvolvimento bac
 node.js e banco de dados
 
 ## Utilização
-Para rodar um teste da API no insomnia utilizar a Porta: 3000<br>
-E utilizar um cluster do mongodb e linkar na no arquivo .ENV<br>
+No terminal, clone o projeto: 
 
-para iniciar o projeto em uma rota do navegador:
+```
+git clone https://github.com/Mazzotti1/API-REST-Login.git
+```
+Entre na pasta do projeto: 
 
-[npm start]
+```
+cd login
+```
+Instale as dependências: 
 
-{get}<br>
+```
+npm install
+```
+Execute a aplicação: 
 
-
-As duas rotas de usuário; Login e Registro eu criei um template que pode ser usado navegador
-
-localhost:3000/user/login<br>
-localhost:3000/user/register<br>
-
-{post}
-
-localhost:3000/user/admin
+```
+npm start
+```
+Pronto, agora é possivel acessar a aplicação a partir da rota: https://localhost:3000/user/register ou https://localhost:3000/user/login
 
 ## O projeto é composto por:
 
