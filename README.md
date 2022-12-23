@@ -1,6 +1,6 @@
 ## Sobre
 
-Este projeto foi feito para aplicar meus conhecimentos sobre desenvolvimento back-end<br>
+Este projeto foi feito mobile first e com intuito de aplicar meus conhecimentos sobre desenvolvimento back-end<br>
 node.js e banco de dados
 
 ## Utilização
