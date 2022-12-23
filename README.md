@@ -6,7 +6,16 @@ node.js e banco de dados
 ## Utilização
 Para rodar um teste da API no insomnia utilizar a Porta: 3000<br>
 E utilizar um cluster do mongodb e linkar na no arquivo .ENV<br>
+
+para iniciar o projeto em uma rota do navegador:
+
+[npm start]
+
 {get}<br>
+
+
+As duas rotas de usuário; Login e Registro eu criei um template que pode ser usado navegador
+
 localhost:3000/user/login<br>
 localhost:3000/user/register<br>
 
