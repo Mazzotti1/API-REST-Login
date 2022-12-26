@@ -1,18 +1,30 @@
 ## Sobre
 
-Este projeto foi feito para aplicar meus conhecimentos sobre desenvolvimento back-end<br>
+Este projeto foi feito mobile first e com intuito de aplicar meus conhecimentos sobre desenvolvimento back-end<br>
 node.js e banco de dados
 
 ## Utilização
-Para rodar um teste da API no insomnia utilizar a Porta: 3000<br>
-E utilizar um cluster do mongodb e linkar na no arquivo .ENV<br>
-{get}<br>
-localhost:3000/user/login<br>
-localhost:3000/user/register<br>
+No terminal, clone o projeto: 
 
-{post}
+```
+git clone https://github.com/Mazzotti1/API-REST-Login.git
+```
+Entre na pasta do projeto: 
 
-localhost:3000/user/admin
+```
+cd login
+```
+Instale as dependências: 
+
+```
+npm install
+```
+Execute a aplicação: 
+
+```
+npm start
+```
+Pronto, agora é possivel acessar a aplicação a partir da rota: https://localhost:3000/user/register ou https://localhost:3000/user/login
 
 ## O projeto é composto por:
 
