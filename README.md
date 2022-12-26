@@ -30,7 +30,7 @@ Pronto, agora é possivel acessar a aplicação a partir da rota: https://localh
 
 - **Controladores:** Encriptações de senha para banco de dados, validações de credenciais e criação de token para login;
 - **Modelos:** Modelos de como são aceitos credenciais para registro no banco de dados e login;
-- **Projetos:** Repositório de projetos que eu fiz até hoje;
+- **Validações:** Validação de dados que estão no banco de dados;
 - **Rotas:** Separação de rotas para restrição de informações para usuários sem permições de admnistrador
 - **Aplicativo:** Para conectar o banco de dados para as rotas de usuário e admin
 
