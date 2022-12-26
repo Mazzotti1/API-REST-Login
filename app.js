@@ -26,8 +26,8 @@ app.use('/user', express.json(), userRouter);
 app.use('/admin', express.json() ,adminRouter);
 
 
-app.use( '/user/register', express.static(path.join(__dirname,"template register")));
-app.use( '/user/login', express.static(path.join(__dirname,"template")));
-
+app.use( '/register', express.static(path.join(__dirname,"public/template register")));
+app.use( '/login', express.static(path.join(__dirname,"public/template login")));
+app.use( '/logado', express.static(path.join(__dirname,"public/template logado")));
 
 app.listen(process.env.PORT, ()=> {console.log("Server Running") } )

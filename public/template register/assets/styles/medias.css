@@ -1,0 +1,10 @@
+
+@media screen and (min-width: 992px) and (max-width:1920px) { /*desktop*/
+    .box{
+        width: 380px;
+        height: 420px;
+    }
+    .form{
+        padding: 50px 40px;
+    }
+}

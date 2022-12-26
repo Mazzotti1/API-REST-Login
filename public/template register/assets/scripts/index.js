@@ -2,12 +2,14 @@
 
 
 
-function login(){
+function register(){
 
+  const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
   console.log(JSON.stringify({
+    name:name,
     email:email,
     password:password
   }));
@@ -18,21 +20,26 @@ function login(){
      method: 'POST',
      headers: {'Content-Type': 'application/json'},
      body: JSON.stringify({
+      name:name,
       email:email,
       password:password
     })
    };
-   fetch('http://localhost:3000/user/login', options)
+   fetch('http://localhost:3000/user/register', options)
 
    .then(async (resp) => {
     var status = await resp.text();
     console.log(status)
-    if(status == 'Usuário logado' ){
-       alert('Usuário Logado com sucesso')
-    }else {
-        alert('Email ou senha invalidos!!')
+    if(status == 'Conta criada' ){
+        location.href = "/login"
+
+    }if (status == "Email já existe") {
+        alert('Email já existe')
+
+    }if (status == "Credenciais não correspondem com o exigido") {
+        alert('Credenciais não correspondem com o exigido')
     }
 
-});
+    })
 }
 
