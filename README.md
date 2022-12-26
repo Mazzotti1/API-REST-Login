@@ -24,7 +24,7 @@ Execute a aplicação:
 ```
 npm start
 ```
-Pronto, agora é possivel acessar a aplicação a partir da rota: https://localhost:3000/user/register ou https://localhost:3000/user/login
+Pronto, agora é possivel acessar a aplicação a partir da rota: https://localhost:3000/register ou https://localhost:3000/login
 
 ## O projeto é composto por:
 
