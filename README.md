@@ -46,6 +46,8 @@ Pronto, agora é possivel acessar a aplicação a partir da rota: https://localh
           
           
 </div>
+##Diagrama que explica como funciona a autenticação dos dados
+![node-js-express-login-example-mongodb-flow](node-js-express-login-example-mongodb-flow.png)
 
 ## Bibliotecas utilizadas
 
