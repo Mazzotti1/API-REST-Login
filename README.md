@@ -24,13 +24,13 @@ Execute a aplicação:
 ```
 npm start
 ```
-Pronto, agora é possivel acessar a aplicação a partir da rota: https://localhost:3000/user/register ou https://localhost:3000/user/login
+Pronto, agora é possivel acessar a aplicação a partir da rota: https://localhost:3000/register ou https://localhost:3000/login
 
 ## O projeto é composto por:
 
 - **Controladores:** Encriptações de senha para banco de dados, validações de credenciais e criação de token para login;
 - **Modelos:** Modelos de como são aceitos credenciais para registro no banco de dados e login;
-- **Projetos:** Repositório de projetos que eu fiz até hoje;
+- **Validações:** Validação de dados que estão no banco de dados;
 - **Rotas:** Separação de rotas para restrição de informações para usuários sem permições de admnistrador
 - **Aplicativo:** Para conectar o banco de dados para as rotas de usuário e admin
 
@@ -46,6 +46,10 @@ Pronto, agora é possivel acessar a aplicação a partir da rota: https://localh
           
           
 </div>
+
+## Diagrama que explica como funciona a autenticação dos dados <br>
+
+![node-js-express-login-example-mongodb-flow](https://user-images.githubusercontent.com/70278577/209692159-f54e2126-aee2-4a98-be5b-f7441ef4eba1.png)
 
 ## Bibliotecas utilizadas
 
@@ -64,3 +68,4 @@ Pronto, agora é possivel acessar a aplicação a partir da rota: https://localh
       Feito por <a href="https://github.com/Mazzotti1">Gabriel Mazzotti</a>
     </td>
 </table>
+
