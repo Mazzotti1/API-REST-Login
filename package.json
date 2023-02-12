@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "vercel-build":"npx migrate-mongoose"
+    "start": "nodemon app.js"
+
   },
   "author": "",
   "license": "ISC",
