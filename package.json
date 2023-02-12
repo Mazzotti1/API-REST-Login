@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "vercel-build":"npx mongoose migrate deploy"
+    "vercel-build":"npx migrate-mongoose"
   },
   "author": "",
   "license": "ISC",
